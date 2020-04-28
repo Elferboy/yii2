@@ -94,7 +94,7 @@ echo $form->field($model, 'items[]')->checkboxList(['a' => 'Item A', 'b' => 'Ite
 
 Дополнительные HTML-элементы можно добавить к форме, используя обычный HTML или методы из класса помощника [[yii\helpers\Html|Html]], как это было сделано с помощью [[yii\helpers\Html::submitButton()|Html::submitButton()]] в примере, приведённом выше. 
 
-> Tip: Если вы использует Twitter Bootstrap CSS в своём приложении, то воспользуйтесь [[yii\bootstrap\ActiveForm]] вместо [[yii\widgets\ActiveForm]]. Он добавит к ActiveForm дополнительные стили, которые сработают в рамках bootstrap CSS.
+> Tip: Если вы используете Twitter Bootstrap CSS в своём приложении, то воспользуйтесь [[yii\bootstrap\ActiveForm]] вместо [[yii\widgets\ActiveForm]]. Он добавит к ActiveForm дополнительные стили, которые сработают в рамках bootstrap CSS.
 
 > Tip: для добавления "звёздочки" к обязательным элементам формы, воспользуйтесь следующим CSS:
 >
